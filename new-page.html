@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap-4.1.1-dist/css/bootstrap.min.css" type="text/css">
+    <title>Simple Portfolio Page</title>
+    <style>
+            .btn{
+            border:.5px solid darkgreen;
+            background-color: transparent;
+            color:darkgreen;
+            transition:0.2s;
+            cursor:pointer;
+            border-radius:50px;
+            font-size:20px;
+            padding: 5px 10px 5px 10px;
+            margin:10px 5px 10px 5px;
+        }
+        .btn:hover{
+            color:aliceblue;
+            background-color:darkgreen; 
+        }
+        .transparent-background{
+            background-color: transparent;
+        }
+        p{
+            text-align:center;
+            font-size: 25px;
+            font-family:monospace sans-serif "Times New Romans";
+        }
+        h1, h2{
+            text-align:center;
+        }
+        .office-room{
+            background-image:url("https://image.freepik.com/free-photo/blurred-abstract-background-interior-view-looking-out-toward-to-empty-office-lobby-and-entrance-doors-and-glass-curtain-wall-with-frame_1339-6370.jpg");
+            background-size: auto;
+            background-repeat:no-repeat;
+            background-clip: border-box;
+            background-size: cover;
+        }
+        .large-top-padding{
+            padding-top:100px;
+        }
+        .medium-top-padding{
+            padding-top:50px;
+        }
+        .large-bottom-padding{
+            padding-bottom:100px;
+        }
+        .medium-bottom-padding{
+            padding-bottom:50px;
+        }
+        .top-bar{
+            background-color: darkslategray;
+            font-size:50px;
+            color:black;
+            padding:10px 5px 10px 5px;
+            margin:0px 0px 10px 0px;
+            border-bottom:2px solid darkturqoise;
+        }
+        body{
+            background-color:turquoise;
+        }
+        .zero-margin{
+            margin: -10px -10px -10px -7px;
+        }
+        .bottom-bar{
+            background-color:darkcyan;
+            color:antiquewhite;
+            border-top:solid black 1px;
+            text-align: left;
+        }
+        a{
+            color:antiquewhite;
+            padding:5px 2px 5px;
+            margin:2px 2px 2px 2px;
+        }
+        </style>
+</head>
+<body>
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="#">NAKURU TELEVISION</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-label">Menu</span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Videos <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Articles<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">LIVE</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">English</a>
+                        <a class="dropdown-item" href="#">Not English</a>
+                        <a class="dropdown-item" href="#">Definately not English</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+        </div>
+    <div class="office-room">
+    <h1 class="top-bar medium-top-padding">JOE W MWANGI</h1>
+        <div class="">
+    <a href="https://www.facebook.com/joe.mwangi.37819"><button class="btn">Facebook</button></a>
+    <a href="https://www.freecodecamp.org/joemv"><button class="btn">Free Code Camp</button></a>
+    <a href="https://github.com/joemV"><button class="btn">GitHub</button></a>
+    </div>
+    <div class="large-top-padding medium-bottom-padding">
+        <h2 class="medium-bottom-padding">About Me</h2>
+    <p>A self taught programmer with an interest in developing with newer technology.
+        </p>
+    </div>
+    <div class="medium-top-padding medium-bottom-padding" id="profile-div">
+        <img src="/Users/PATRICK/Documents/Photography Concepts/IMG_0567.JPG" alt="Photo of Myself">
+        <h2 class="medium-bottom-padding">Profile</h2>
+        <p>
+           I began my programming journey in 2015 while still in high school. Kept going even after I was done and started learning PHP and HTML in late 2017. Looking foward to continuing growing and learning.
+        </p>
+    </div>
+    </div>
+    <div class="bottom-bar medium-bottom-padding zero-margin">
+        <p>Contacts:
+        <a href="https://www.freecodecamp.org/joemv" class="text-capitalize">Free Code Camp</a><br>
+        <a href="https://www.facebook.com/joe.mwangi.37819">Facebook</a><br>
+        <a href="https://github.com/joemV">GitHub</a><br>
+        <a href="/Users/PATRICK/Documents/HTML docs/FreeCodeCamp.html">Home</a>
+        </p>
+    </div>
+    </body>
+</html>
