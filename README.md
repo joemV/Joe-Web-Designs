@@ -1,2 +1,3 @@
 # Joe-Web-Designs
-Some darfts for web pages ive done
+
+This branch will focus on regular stylized Bootstrap, CSS and HTML web pages
