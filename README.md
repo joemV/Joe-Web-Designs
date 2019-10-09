@@ -1,2 +1,3 @@
 # Joe-Web-Designs
-Some darfts for web pages ive done
+
+This branch will focus on my progress on grid styling on CSS primarily
